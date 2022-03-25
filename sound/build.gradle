@@ -1,0 +1,9 @@
+apply plugin: "java"
+
+dependencies {
+    compile project(':core')
+}
+
+sourceSets.main.java.srcDirs = [
+        "src/","utilssrc",
+]
